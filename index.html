@@ -1,24 +1,84 @@
 <!DOCTYPE html>
-<html lang="et" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Avaleht</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-
-  <body>
-    <div id="container">
-      <header>
-        <div class="ribbon">
-
+<html lang="et">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Avaleht</title>
+</head>
+<body class="container">
+    <header class="header">
+      <div class="header__info">
+        <div class="header__info-ribbon">
+          <span class="header__info-ribbon-text">Tee ise</span>
+          <img src="Images/ribbon.png" alt="Ribbon image" class="header__info-ribbon-img">
         </div>
-      </header>
-      <main>
-
-      </main>
-      <footer>
-
-      </footer>
-    </div>
-  </body>
+        <div class="header__heading">
+          <span class="header__heading-sm">Imeline</span>
+          <h1 class="heading">Ajalugu</h1>
+        </div>
+        <p class="paragraph">
+          Vali nende põnevate lugude seast välja enda lemmikud. Sinu ja teiste lugejate soovide põhjal paneme kokku ajakirja novembri numbri. Nii sünnib Eesti esimene lugejate poolt kokku pandud ajakiri, mille Sina võid saada endale tasuta!
+        </p>
+        <h3 class="heading-3 heading-3--red">
+          <span>&darr;</span>
+          Vali oma lemmikartiklid
+        </h3>
+      </div>
+    </header>
+    <main class="content">
+      <div class="question__area">
+        <h2 class="heading-2">Pane kokku omaenda Imeline Ajalugu</h2>
+        <p>Vali igast teemast kuni 3 artiklit ImeliseAjaloo novembri numbrise. Tänutäheks sadame selle Sulle tasuta. Kui
+          Sul endal on ajakiri juba tellitud, telli tasuta number heale sõbrale, kolleegile või sugulasele.</p>
+        <div class="question__accordion">
+          <div class="question__accortion-tab">
+            <div class="question__accordion-tab-heading">
+              <h3 class="heading-3">Pingelised sündmused</h3>
+              <span class="page">2 / 3</span>
+            </div>
+            <form action="#" class="question__accordion-option-1">
+              <div class="question__accordion-choice-group">
+                <input type="checkbox" class="question__accordion-choice" id="choice1" name="choice" value="hunt">
+                <label for="choice1">
+                  <img src="Images/articel1.png" alt="Choice 1">
+                  <span class="description">
+                  <span>Aaretejaht</span>
+                  <p>1820: Hispanlased lastivad laevaaretega, kuid see röövitakse ja aare peidetakse väikesele sarele. Tänapäeva aaretejahtija läheb seda otsima.</p>
+                  </span>
+                </label>
+              </div>
+              <div class="question__accordion-choice-group">
+                <input type="checkbox" class="question__accordion-choice" id="choice2" name="choice" value="hunt">
+                <label for="choice2">
+                  <img src="Images/articel1.png" alt="Choice 1">
+                  <span class="description">
+                  <span>Aaretejaht</span>
+                  <p>1820: Hispanlased lastivad laevaaretega, kuid see röövitakse ja aare peidetakse väikesele sarele. Tänapäeva aaretejahtija läheb seda otsima.</p>
+                  </span>
+                </label>
+              </div>
+              <div class="question__accordion-choice-group">
+                <input type="checkbox" class="question__accordion-choice" id="choice3" name="choice" value="hunt">
+                <label for="choice3">
+                  <img src="Images/articel1.png" alt="Choice 1">
+                  <span class="description">
+                  <span>Aaretejaht</span>
+                  <p>1820: Hispanlased lastivad laevaaretega, kuid see röövitakse ja aare peidetakse väikesele sarele. Tänapäeva aaretejahtija läheb seda otsima.</p>
+                  </span>
+                </label>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="footer__info">
+        <a href="#" class="footer__link">Tutvu kampaania tingimustega</a>
+        <p class="footer__text">Klienditeeninduse e-post: <a href="#" class="footer__link">register@imelineajalugu.ee.</a> Tel: 667 0099 (tööpäeviti 9-17)</p>
+      </div>
+    </footer>
+</body>
 </html>
