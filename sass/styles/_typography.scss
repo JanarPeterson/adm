@@ -1,0 +1,19 @@
+
+.heading {
+    font-size: 10rem;
+    font-weight: 500;
+    letter-spacing: -4px;
+}
+
+.heading-2 {
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.heading-3 {
+    font-size: 2rem;
+    
+    &--red {
+        color: $color-red;
+    }
+}
